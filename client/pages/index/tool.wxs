@@ -1,0 +1,4 @@
+function creatNames(name1){
+  return name1.split(',')
+  }
+  module.exports = creatNames

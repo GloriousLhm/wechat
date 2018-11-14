@@ -1,0 +1,10 @@
+<view class="container">
+
+
+  Movie
+
+  <button bind:tap="onCache">
+    缓存数据
+  </button>
+
+</view>

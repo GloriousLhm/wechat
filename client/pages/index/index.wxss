@@ -1,0 +1,9 @@
+page {
+  height: 100%;
+}
+
+.pressBtn {
+  padding-top: 20px;
+  background-color: pink;
+  width: 740rpx;
+}

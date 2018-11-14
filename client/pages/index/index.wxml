@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<template name="renderList"></template>
+<wxs src="tool.wxs" module="tool">
+
+</wxs>
+<view class="container">
+  <!-- <view>{{name}}</view>
+  <view>{{people.n1}}</view>
+  <view>{{people.n2}}</view>
+  <view wx:for="{{names}}" wx:key="id">
+    {{item.name}}
+  </view> -->
+  <template is="renderList" data="{{name:names}}">
+
+  </template>
+  <include src="header.wxml" />
+  <view bind:tap="onTap" class="pressBtn" id="view" data-name="容器">
+    <text id="text" data-name="文字">
+      点按我可以打印信息
+
+    </text>
+
+  </view>
+  <view wx:for="{{tool(name1)}}" wx:key="*this">
+    {{item}}
+  </view>
+  <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">
+    获取用户信息
+  </button>
+  <button bind:tap="onTry">
+    获取信息试试
+  </button>
+  <button bind:tap="onAuthLocation">
+    授权位置信息
+  </button>
+  <button bind:tap="getAuthLocation">
+    获取位置信息
+  </button>
+  <button bind:tap="onGetSetting">
+    获取授权的信息
+  </button>
+  <button bind:tap="onGotoSetting">
+    打开授权的信息面板
+  </button>
+
+  <button bind:tap="onReq">
+    请求服务
+
+  </button>
+
+</view>

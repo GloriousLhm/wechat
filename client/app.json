@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#333",
+    "enablePullDownRefresh": true
+  },
+  "debug": false,
+  "tabBar": {
+    "color": "#707070",
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "日志",
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "text": "视频",
+        "pagePath": "pages/movie/movie"
+      }
+    ]
+  }
+
+
+
+}
