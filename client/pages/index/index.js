@@ -110,7 +110,7 @@ Page({
       title: "请求中"
     })
     wx.request({
-      url: "http://localhost:3000/hello",
+      // url: "http://localhost:3000/hello",
       data: {
         name: "May Liu",
       },

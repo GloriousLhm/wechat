@@ -1,8 +1,8 @@
 {
 	"client": "client/",
-	"svr": "./server",
-	"miniprogramRoot": "./client",
-	"qcloudRoot": "./server",
+	"svr": "server/",
+	"miniprogramRoot": "client/",
+	"qcloudRoot": "server/",
 	"description": "项目配置文件。",
 	"packOptions": {
 		"ignore": []
