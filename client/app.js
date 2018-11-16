@@ -5,7 +5,7 @@ App({
 
   // 在小程序运行期间，之后运行一次
   // 程序销毁（过了一段时间没有运行，或者手动删除了小程序，再次添加运行）之后，再次启动就好执行
-  onLaunch: function() {
+  onLaunch: function () {
 
     console.log("小程序启动了")
 
