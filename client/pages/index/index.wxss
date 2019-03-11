@@ -1,4 +1,8 @@
 @import "../../common/css/list.wxss";
+/* 750rpx = 一个屏幕的宽度 */
+/* 1rpx = 页面宽度/750  px */
+/* 设计稿 1080px = 1080/750 = 1.44px */
+/* div的宽 204px = 204/1.44 =141.6 rpx */
 
 page {
     height: 100%;
@@ -24,6 +28,7 @@ page {
     float: left;
 }
 
+/* 向下三角形 */
 .city::after {
     content: "";
     display: inline-block;
@@ -37,6 +42,7 @@ page {
     top: -2rpx;
 }
 
+/* 本地图片无法通过wxss获取们可以使用网络图片或者base64 或者使用image标签 */
 .userinfo {
     float: right;
     width: 48rpx;

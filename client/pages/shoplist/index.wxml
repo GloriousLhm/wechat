@@ -1,0 +1,5 @@
+<scroll-view class="page" scroll-y>
+  <view class="list-nav">
+    <text class="iconfont .icon-xiangxia">附近</text>
+  </view>
+</scroll-view>

@@ -1,3 +1,8 @@
-page{
+page {
   background-color: #ccc;
+}
+
+/* 控制点击之后的样式 */
+.navigator-hover {
+  background-color: transparent;
 }
